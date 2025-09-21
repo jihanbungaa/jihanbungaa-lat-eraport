@@ -18,7 +18,7 @@
                 <div class="tab">
                 <button class="tablinks active" onclick="openTab(event, 'Student')">Login Siswa</button>
                 <button class="tablinks" onclick="openTab(event, 'Teacher')">Login Walas</button>
-            </div>
+                </div>
 
             <div id="Student" class="tabcontent" style="display: block;">
                 <h2>Login Siswa</h2>

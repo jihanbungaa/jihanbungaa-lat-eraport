@@ -173,7 +173,10 @@ public function show()
 
     $nilai = optional($siswa->nilai)->first();
 
-    $walas = Nilai::with('walas')->first();
+    $walas = null;
+        if ($siswa && isset($siswa->id_kelas)) {
+            $walas = Walas::where('id_kelas', $siswa->id_kelas)->first();
+        }
 
     $data_nilai = [
         'matematika' => [

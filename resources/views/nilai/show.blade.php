@@ -20,7 +20,8 @@
     <tr>
         <td>Nama Walas</td>
         <td>:</td>
-        <td>{{ session('nama') }}</td>
+        <td>{{ $siswa->kelas && $siswa->kelas->walas ? $siswa->kelas->walas->nama_walas : 'Belum ada wali kelas yang ditetapkan' }}</td>
+
     </tr>
     <tr>
         <td>Kelas</td>

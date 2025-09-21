@@ -31,7 +31,7 @@
                 <label for="matematika">Matematika</label>
             </td>
             <td>
-                <input type="number" name="matematika" id="matematika" step="0.01" required>
+                <input type="number" name="matematika" id="matematika" min="0" max="100" step="0.01" required>
             </td>
        </tr>
 
@@ -40,7 +40,7 @@
                 <label for="indonesia">Indonesia</label>
             </td>
             <td>
-                <input type="number" name="indonesia" id="indonesia" step="0.01" required>
+                <input type="number" name="indonesia" id="indonesia" min="0" max="100" step="0.01" required>
             </td>
        </tr>
 
@@ -49,7 +49,7 @@
                 <label for="inggris">Inggris</label>
             </td>
             <td>
-                <input type="number" name="inggris" id="inggris" step="0.01" required>
+                <input type="number" name="inggris" id="inggris" min="0" max="100" step="0.01" required>
             </td>
        </tr>
 
@@ -58,7 +58,7 @@
                 <label for="kejuruan">Kejuruan</label>
             </td>
             <td>
-                <input type="number" name="kejuruan" id="kejuruan" step="0.01" required>
+                <input type="number" name="kejuruan" id="kejuruan" min="0" max="100" step="0.01" required>
             </td>
        </tr>
 
@@ -67,7 +67,7 @@
                 <label for="pilihan">Pilihan</label>
             </td>
             <td>
-                <input type="number" name="pilihan" id="pilihan" step="0.01" required>
+                <input type="number" name="pilihan" id="pilihan" min="0" max="100" step="0.01" required>
             </td>
        </tr>
     </table>
